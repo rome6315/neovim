@@ -13,16 +13,16 @@ return require('packer').startup(function(use)
   }
   use('shaunsingh/nord.nvim')
 
-  use({
-	  'rose-pine/neovim',
-	  as = 'rose-pine',
-	  config = function()
-	          vim.cmd('colorscheme rose-pine')
-	  end
-  })
+  use({'folke/tokyonight.nvim'})
+
+  use({'rose-pine/neovim'})
+  --treesitter stuff
   use ({'nvim-treesitter/nvim-treesitter', run =':TSUpdate'})
+  --bounce between files
   use ('ThePrimeagen/harpoon')
+  --undo changes
   use ('mbbill/undotree')
+  --lsp stuff
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  requires = {
