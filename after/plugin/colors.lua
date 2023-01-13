@@ -1,5 +1,5 @@
 function Colors(color)
-	color = color or "rose-pine" -- make sure we always have nord to fall back on cuz screw built in colors
+	color = color or "nord" -- make sure we always have nord to fall back on cuz screw built in colors
 	vim.cmd.colorscheme(color)
 
 	-- uncomment for transparecny: 
