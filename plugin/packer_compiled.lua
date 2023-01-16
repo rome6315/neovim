@@ -131,7 +131,11 @@ _G.packer_plugins = {
   },
   neovim = {
     loaded = true,
+<<<<<<< HEAD
     path = "/home/romanmorasco/.local/share/nvim/site/pack/packer/start/neovim",
+=======
+    path = "/home/nagato/.local/share/nvim/site/pack/packer/start/neovim",
+>>>>>>> e9b44ded8f693b5c00e5fc055e69c3e8cfbbb95b
     url = "https://github.com/rose-pine/neovim"
   },
   ["nord.nvim"] = {
@@ -171,7 +175,11 @@ _G.packer_plugins = {
   },
   ["tokyonight.nvim"] = {
     loaded = true,
+<<<<<<< HEAD
     path = "/home/romanmorasco/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+=======
+    path = "/home/nagato/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+>>>>>>> e9b44ded8f693b5c00e5fc055e69c3e8cfbbb95b
     url = "https://github.com/folke/tokyonight.nvim"
   },
   undotree = {
