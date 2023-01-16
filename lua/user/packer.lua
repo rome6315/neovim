@@ -22,6 +22,8 @@ return require('packer').startup(function(use)
   use ('ThePrimeagen/harpoon')
   --undo changes
   use ('mbbill/undotree')
+
+  use ('norcalli/nvim-colorizer.lua')
   --lsp stuff
   use {
 	  'VonHeikemen/lsp-zero.nvim',
