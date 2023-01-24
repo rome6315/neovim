@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
   }
   use('shaunsingh/nord.nvim')
 
+  use('Mofiqul/dracula.nvim')
+
   use({'folke/tokyonight.nvim'})
 
   use({'rose-pine/neovim'})
